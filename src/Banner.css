@@ -1,0 +1,47 @@
+.banner{
+    background: url("./img/night.jpg");
+    height:     90vh;
+    background-size: cover;
+    position: relative;
+}
+
+.banner__info{
+    background-color: rgba(11, 196, 234, 0.673);
+    color: black;
+    padding-top:32vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    width: 300px;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__search >button  {
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: rgba(11, 196, 234, 0.673);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.banner__info > button {
+    background-color: rgba(255, 255, 255, 0.622);
+    color: black;
+    text-transform: inherit;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover{
+    background-color: white;
+    color:  rgba(11, 196, 234, 0.673);
+
+}
+
+.banner__info >h5{
+    margin: top 10px;
+}
