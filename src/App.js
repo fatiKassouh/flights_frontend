@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Banner from './Banner';
+import { DateRangePicker } from 'react-date-range';
 
 
 function App() {

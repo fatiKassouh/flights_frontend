@@ -3,9 +3,10 @@
    position: absolute;
    top:100px;
    left: 25%;
+   height: 420px;
    width: 100vw; 
-}
 
+}
 
 .search >h2{
     display: flex;
@@ -18,7 +19,19 @@
     left: 0;
     top: 330px;
 }
-
+.class {
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+.search .vol__info{
+    display: flex;
+    background-color: white;
+    width: 227px;
+    justify-content: center;
+}
 .search >input {
     width: 559px;
     padding: 10px;
@@ -29,9 +42,21 @@
     top: 380px;
     border: none;
 }
-
+.search .row{
+    margin-top: 10px ;
+    margin-left: 10px;
+}
+.search .sieges{
+    align-items: center;
+    text-size-adjust: 11px 10;
+}
 .search > input-focus {
     outline-width: 0;  
+}
+.form-check .labels{
+    font-size: medium;
+    color:rgb(11, 197, 234) !important;
+    font-family: inherit;
 }
 
 .search > button{
@@ -41,7 +66,7 @@
     text-transform: inherit !important;
     background-color: rgb(11, 197, 234) !important;
     color: black;
-    width: 580px;
+    width: 579px;
     margin-top: 11px;
     border-radius: 0;
 }
