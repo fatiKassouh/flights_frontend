@@ -1,11 +1,10 @@
 .search{
     display: flex;
-   position: absolute;
-   top:100px;
-   left: 25%;
-   height: 420px;
-   width: 100vw; 
-
+    position: absolute;
+    top:100px;
+    left: 25%;
+    height: 420px;
+    width: 100vw; 
 }
 
 .search >h2{
@@ -64,7 +63,7 @@
     left: 0;
     top: 400px;
     text-transform: inherit !important;
-    background-color: rgb(11, 197, 234) !important;
+    background-color: rgba(11, 197, 234) !important;
     color: black;
     width: 579px;
     margin-top: 11px;
